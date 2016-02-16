@@ -1,0 +1,29 @@
+{
+  "name": "nata.house",
+  "version": "0.0.0",
+  "description": "Website for the Nata House company",
+  "main": "index.js",
+  "scripts": {
+    "commit": "npm run sass && ./node_modules/.bin/git-cz",
+    "sass": "./node_modules/.bin/node-sass --output-style compressed ./scss/main.scss ./css/main.css",
+    "sass:watch": "./node_modules/.bin/node-sass -rw ./scss/main.scss ./css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RodrigoGontijo/Nata.House.git"
+  },
+  "author": "Nata House <nata@nata.house> (http://nata.house)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodrigoGontijo/Nata.House/issues"
+  },
+  "homepage": "https://github.com/RodrigoGontijo/Nata.House",
+  "devDependencies": {
+    "commitizen": "^2.5.0",
+    "cz-conventional-changelog": "^1.1.5",
+    "node-sass": "^3.4.2"
+  },
+  "czConfig": {
+    "path": "./node_modules/cz-conventional-changelog"
+  }
+}
