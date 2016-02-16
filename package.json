@@ -1,8 +1,7 @@
 {
   "name": "nata.house",
-  "version": "0.0.0",
+  "author": "Nata House <nata@nata.house> (http://nata.house)",
   "description": "Website for the Nata House company",
-  "main": "index.js",
   "scripts": {
     "commit": "npm run sass && ./node_modules/.bin/git-cz",
     "sass": "./node_modules/.bin/node-sass --output-style compressed ./scss/main.scss ./css/main.css",
@@ -12,12 +11,8 @@
     "type": "git",
     "url": "https://github.com/RodrigoGontijo/Nata.House.git"
   },
-  "author": "Nata House <nata@nata.house> (http://nata.house)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RodrigoGontijo/Nata.House/issues"
-  },
-  "homepage": "https://github.com/RodrigoGontijo/Nata.House",
+  "homepage": "http://nata.house",
   "devDependencies": {
     "commitizen": "^2.5.0",
     "cz-conventional-changelog": "^1.1.5",
