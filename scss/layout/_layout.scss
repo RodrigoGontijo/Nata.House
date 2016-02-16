@@ -1,0 +1,29 @@
+.layout { position: relative; }
+
+.layout-top, .layout-bottom,
+.layout-left, .layout-right,
+.layout-center-x, .layout-center-y,
+.layout-center-xy {
+    position: absolute;
+}
+
+.layout-top { top: 0; }
+.layout-bottom { bottom: 0; }
+.layout-left { left: 0; }
+.layout-right { right: 0; }
+
+.layout-center-x {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.layout-center-y {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.layout-center-x.layout-center-y,
+.layout-center-xy {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
