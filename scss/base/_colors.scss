@@ -1,3 +1,10 @@
+/**
+ * The "colors" submodule contains definitions for color values
+ * constantly used throughout the stylesheet.
+ * It is important to note that consistency is the key when
+ * defining and using colors. Prefer for a maximum amount of 3 or 4
+ * main colors: primary, secondary, tertiary and accent.
+ */
 $color-primary: null;
 $color-secondary: null;
 $color-accent: null;
@@ -15,16 +22,18 @@ html {
   background-color: $color-gray-light;
 }
 
-.text-primary { color: $color-primary; }
-.text-secondary { color: $color-secondary; }
-.text-accent { color: $color-accent; }
-.text-white { color: $color-white; }
-.text-black { color: $color-text-dark; }
-.text-gray { color: $color-text-light; }
-
 .bg-primary { background-color: $color-primary; }
 .bg-secondary { background-color: $color-secondary; }
 .bg-accent { background-color: $color-accent; }
 .bg-white { background-color: $color-white; }
 .bg-black { background-color: $color-text-dark; }
 .bg-gray { background-color: $color-gray-light; }
+
+// Whilst regarding text color and, thus, typography,
+// the following class definitions are kept in the "colors" module
+.text-primary { color: $color-primary; }
+.text-secondary { color: $color-secondary; }
+.text-accent { color: $color-accent; }
+.text-white { color: $color-white; }
+.text-black { color: $color-text-dark; }
+.text-gray { color: $color-text-light; }

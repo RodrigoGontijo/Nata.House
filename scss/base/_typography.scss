@@ -1,3 +1,8 @@
+/**
+ * The "typography" submodule contains any type, copy and text-related styles
+ */
+
+// Weight
 $thin: 100;
 $light: 300;
 $regular: 500;
@@ -10,12 +15,12 @@ $bold: 800;
 .text-medium { font-weight: $medium; }
 .text-bold { font-weight: $bold; }
 
+// Alignment
 .text-left { text-align: left; }
 .text-center { text-align: center; }
 .text-right { text-align: right; }
 
-.text-uppercase { text-transform: uppercase; }
-
+// Base
 $base-font-family: sans-serif;
 $base-font-weight: $regular;
 $base-font-size: 1.5rem;
@@ -29,13 +34,18 @@ body {
     color: $color-text;
 }
 
+p, span, a, i, b, strong, small, em {
+  line-height: 1.3em;
+}
+
+// Headings
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 0.5em;
     font-weight: $regular;
 }
 
 h1 {
-    font-size: 5.4rem;
+    font-size: 4.8rem;
     font-weight: $light;
 }
 h2 {
@@ -46,10 +56,32 @@ h3 {
 }
 h4 {
     font-size: 2.0rem;
+    font-weight: $medium;
 }
 h5 {
     font-size: 1.8rem;
+    font-weight: $medium;
 }
 h6 {
     font-size: 1.6rem;
+    font-weight: $bold;
+}
+
+@include desktop {
+    h1 { font-size: 5.4rem; }
+    h2 { font-size: 4.8rem; }
+    h3 { font-size: 3.6rem; }
+    h4 { font-size: 2.4rem; }
+    h5 { font-size: 1.8rem; }
+    h6 { font-size: 1.6rem; }
+}
+
+// Anchors
+a {
+    text-decoration: underline;
+    color: $color-accent;
+    &:hover {
+        // TODO: change color of a:hover
+        color: inherit;
+    }
 }
