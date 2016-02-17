@@ -43,60 +43,6 @@
     background-color: sandybrown;
 }
 
-.circle {
-    position: fixed;
-    width: 15px;
-    height: 15px;
-    margin-left: 1.5%;
-    border-radius: 50%;
-    border: 3px gray solid;
-    background: transparent;
-    z-index: 1;
-}
-
-.circle:hover {
-    border: 3px white solid;
-}
-
-.selected {
-    position: fixed;
-    background-size: cover;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: #FFFFFF;
-    margin-left: 1.5%;
-    z-index: 1;
-}
-
-.distance1{
-    margin-top: 21%;
-}
-
-.distance2{
-    margin-top: 22.5%;
-}
-
-.distance3{
-    margin-top: 24%;
-}
-
-.distance4{
-    margin-top: 25.5%;
-}
-
-.distance5{
-    margin-top: 27%;
-}
-
-.distance6{
-    margin-top: 28.5%;
-}
-
-.distance7{
-    margin-top: 30%;
-}
-
 @import "base/module";
 @import "components/module";
 @import "layout/module";
