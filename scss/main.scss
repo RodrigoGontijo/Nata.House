@@ -10,39 +10,6 @@
     }
 }
 
-.section {
-    height: 100vh;
-    width: 100%;
-}
-
-.section1 {
-    background-color: darkblue;
-}
-
-.section2 {
-    background-color: blue;
-}
-
-.section3 {
-    background-color: black;
-}
-
-.section4 {
-    background-color: red;
-}
-
-.section5 {
-    background-color: orange;
-}
-
-.section6 {
-    background-color: green;
-}
-
-.section7 {
-    background-color: sandybrown;
-}
-
 @import "base/module";
 @import "components/module";
 @import "layout/module";
