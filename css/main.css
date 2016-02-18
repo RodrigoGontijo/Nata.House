@@ -13,6 +13,9 @@
 html {
   background-color: #F0F0F0; }
 
+.bg-primary {
+  background-color: #FFAA00; }
+
 .bg-white {
   background-color: #FFFFFF; }
 
@@ -21,6 +24,9 @@ html {
 
 .bg-gray {
   background-color: #F0F0F0; }
+
+.text-primary {
+  color: #FFAA00; }
 
 .text-white {
   color: #FFFFFF; }
@@ -121,6 +127,25 @@ a {
  * MUST have its own submodule file which is, then,
  * imported into this module.
  */
+.navbar {
+  height: 64px; }
+  .navbar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .navbar > ul > li {
+      float: right; }
+      .navbar > ul > li > a {
+        color: #404040;
+        text-align: center;
+        text-decoration: none;
+        padding: 0 16px;
+        display: inline-block;
+        line-height: 64px; }
+        .navbar > ul > li > a:hover {
+          color: #FFAA00;
+          background-color: #303030; }
+
 .sidenav {
   z-index: 1; }
   .sidenav > ul {
@@ -138,25 +163,6 @@ a {
       height: 16px; }
       .sidenav > ul > li > a:hover {
         border: 3px #303030 solid; }
-
-.topnav > ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border-bottom: 1px solid #B0B0B0;
-  background-color: #FFAA00; }
-  .topnav > ul > li {
-    float: right; }
-    .topnav > ul > li > a {
-      display: inline-block;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none; }
-      .topnav > ul > li > a:hover {
-        color: #FFAA00;
-        background-color: #303030; }
 
 /**
  * The "layout" module is used to define layout specific styles,
