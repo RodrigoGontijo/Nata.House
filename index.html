@@ -17,42 +17,53 @@
 <body>
 
 <nav class="sidenav u-fixed layout-center-y">
-    <button class="selected u-round"></button>
-    <button class="u-round"></button>
-    <button class="u-round"></button>
-    <button class="u-round"></button>
-    <button class="u-round"></button>
-    <button class="u-round"></button>
-    <button class="u-round"></button>
+    <ul id="sidenav">
+        <li data-menuanchor="section1" class="active u-round"><a class="u-round" href="#section1"></a></li>
+        <li data-menuanchor="section2" class="u-round"><a class="u-round" href="#section2"></a></li>
+        <li data-menuanchor="section3" class="u-round"><a class="u-round" href="#section3"></a></li>
+        <li data-menuanchor="section4" class="u-round"><a class="u-round" href="#section4"></a></li>
+        <li data-menuanchor="section5" class="u-round"><a class="u-round" href="#section5"></a></li>
+        <li data-menuanchor="section6" class="u-round"><a class="u-round" href="#section6"></a></li>
+    </ul>
 </nav>
 
 <div id="fullpage">
 
     <section class="section active">
+        <nav class="topnav">
+            <ul>
+                <li><a class="active" href="#section6">Seção 5</a></li>
+                <li><a href="#section5">Seção 4</a></li>
+                <li><a href="#section4">Seção 3</a></li>
+                <li><a href="#section3">Seção 2</a></li>
+                <li><a href="#section2">Seção 1</a></li>
+            </ul>
+        </nav>
+
         <h1 class="text-center">Site em Construção</h1>
     </section>
 
-    <section class="section">
+    <section data-anchor="section1" class="section">
         <h1 class="layout-center-x">Seção 1</h1>
     </section>
 
-    <section class="section">
+    <section data-anchor="section2" class="section">
         <h1 class="layout-center-x">Seção 2</h1>
     </section>
 
-    <section class="section">
+    <section data-anchor="section3" class="section">
         <h1 class="layout-center-x">Seção 3</h1>
     </section>
 
-    <section class="section">
+    <section data-anchor="section4" class="section">
         <h1 class="layout-center-x">Seção 4</h1>
     </section>
 
-    <section class="section">
+    <section data-anchor="section5" class="section">
         <h1 class="layout-center-x">Seção 5</h1>
     </section>
 
-    <section class="section">
+    <section data-anchor="section6" class="section">
         <h1 class="layout-center-x">Seção 6</h1>
     </section>
 </div>

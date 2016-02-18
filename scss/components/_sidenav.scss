@@ -1,26 +1,31 @@
 .sidenav {
-    margin-left: 16px;
-    width: 16px;
     z-index: 1;
 
-    > button {
-        background: none;
-        border: 3px $color-gray solid;
+    > ul {
+        list-style-type: none;
+        > li {
 
-        margin: 8px 0;
-        padding: 0;
+            &.active {
+                border: none;
+                background: $color-orange;
+            }
 
-        display: block;
-        width: 16px;
-        height: 16px;
+            >a {
+                &:hover {
+                    border: 3px $color-black solid;
+                }
 
-        &:hover {
-            border: 3px $color-white solid;
+                background: none;
+                border: 3px $color-gray solid;
+
+                margin: 8px 0;
+                padding: 0;
+
+                display: block;
+                width: 16px;
+                height: 16px;
+            }
         }
 
-        &.selected {
-            border: none;
-            background: $color-white;
-        }
     }
 }

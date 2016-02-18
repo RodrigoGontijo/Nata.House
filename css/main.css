@@ -1,28 +1,3 @@
-.section {
-  height: 100vh;
-  width: 100%; }
-
-.section1 {
-  background-color: darkblue; }
-
-.section2 {
-  background-color: blue; }
-
-.section3 {
-  background-color: black; }
-
-.section4 {
-  background-color: red; }
-
-.section5 {
-  background-color: orange; }
-
-.section6 {
-  background-color: green; }
-
-.section7 {
-  background-color: sandybrown; }
-
 /**
  * The "base" module should contain definitions and base values
  * for the whole stylesheet. Color and typography definitions are,
@@ -147,22 +122,41 @@ a {
  * imported into this module.
  */
 .sidenav {
-  margin-left: 16px;
-  width: 16px;
   z-index: 1; }
-  .sidenav > button {
-    background: none;
-    border: 3px #B0B0B0 solid;
-    margin: 8px 0;
-    padding: 0;
-    display: block;
-    width: 16px;
-    height: 16px; }
-    .sidenav > button:hover {
-      border: 3px #FFFFFF solid; }
-    .sidenav > button.selected {
+  .sidenav > ul {
+    list-style-type: none; }
+    .sidenav > ul > li.active {
       border: none;
-      background: #FFFFFF; }
+      background: #FFAA00; }
+    .sidenav > ul > li > a {
+      background: none;
+      border: 3px #B0B0B0 solid;
+      margin: 8px 0;
+      padding: 0;
+      display: block;
+      width: 16px;
+      height: 16px; }
+      .sidenav > ul > li > a:hover {
+        border: 3px #303030 solid; }
+
+.topnav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid #B0B0B0;
+  background-color: #FFAA00; }
+  .topnav > ul > li {
+    float: right; }
+    .topnav > ul > li > a {
+      display: inline-block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none; }
+      .topnav > ul > li > a:hover {
+        color: #FFAA00;
+        background-color: #303030; }
 
 /**
  * The "layout" module is used to define layout specific styles,
@@ -217,7 +211,7 @@ html, body {
 
 section {
   position: relative;
-  padding: 3.6rem 0 3.6rem; }
+  padding: 0 0 3.6rem; }
 
 /**
  * The "utils" module contains definitions for utility classes.

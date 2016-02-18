@@ -1,0 +1,28 @@
+.topnav {
+
+    > ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border-bottom: 1px solid $color-gray;
+        background-color: $color-orange;
+
+        > li {
+            float: right;
+
+            > a {
+                display: inline-block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+
+                &:hover {
+                    color: $color-orange;
+                    background-color: $color-black;
+                }
+            }
+        }
+    }
+}
