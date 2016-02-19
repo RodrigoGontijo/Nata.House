@@ -1,18 +1,23 @@
 $navbar-height: 64px;
+$navbar-margin-right: 30px;
+$navbar-margin-top: 20px;
 
 .navbar {
     height: $navbar-height;
 
     > ul {
         list-style-type: none;
-        margin: 0;
         padding: 0;
+        margin-right: $navbar-margin-right;
+
 
         > li {
             float: right;
+            margin-right: $navbar-margin-right;
+            margin-top: $navbar-margin-top;
 
             > a {
-                color: $color-text;
+                color: $color-white;
                 text-align: center;
                 text-decoration: none;
 
@@ -22,9 +27,15 @@ $navbar-height: 64px;
 
                 &:hover {
                     color: $color-primary;
-                    background-color: $color-black;
+                    animation: fadein 0.5s;
+
                 }
             }
         }
     }
+}
+
+@keyframes fadein {
+    from{opacity: 0;}
+    to{opacity: 1;}
 }
