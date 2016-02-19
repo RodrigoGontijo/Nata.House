@@ -88,8 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 4.8rem;
-  font-weight: 300;
-  font-family: headerFont; }
+  font-weight: 300; }
 
 h2 {
   font-size: 3.6rem; }
@@ -127,6 +126,9 @@ a {
   text-decoration: underline; }
   a:hover {
     color: inherit; }
+
+.headerFont {
+  font-family: headerFont; }
 
 @font-face {
   font-family: headerFont;
@@ -184,7 +186,7 @@ a {
         border: 3px #FFFFFF solid; }
 
 .firstpage {
-  background-image: url("../res/images/firstPage_background.jpg");
+  background-image: url("../res/images/firstPage_background.png");
   background-size: cover; }
 
 .logo {
