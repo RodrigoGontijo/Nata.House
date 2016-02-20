@@ -20,6 +20,10 @@
     transform: translateX(-50%);
 }
 
+.relative {
+    position: relative;
+}
+
 .layout-center-y {
     top: 50%;
     transform: translateY(-50%);
@@ -46,7 +50,7 @@
 }
 
 .layout-toggle-color {
-    transition: color 3s ease-in-out;
+    transition: color 2s ease-in-out;
 }
 
 .layout-center-x.layout-center-y,

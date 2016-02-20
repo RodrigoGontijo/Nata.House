@@ -6,8 +6,10 @@
         > li {
 
             &.active {
-                border: none;
-                background: $color-primary;
+                >a {
+                    border:none;
+                }
+                background: $color-white;
             }
 
             >a {

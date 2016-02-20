@@ -1,7 +1,7 @@
 //This one executes when the DOM is ready to be manipulated
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        anchors:['section-title', 'section-about', 'section-services', 'section-people', 'section-contact','section6'],
+        anchors:['section-title', 'section-about', 'section-services', 'section-people', 'section-contact'],
         menu: '#sidenav',
         loopBottom: true,
     });
