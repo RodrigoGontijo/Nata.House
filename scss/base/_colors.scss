@@ -20,6 +20,13 @@ $color-text-dark: #303030;
 $color-black: $color-text-dark;
 $color-white: #FFFFFF;
 
+// Background colors for each section (https://flatuicolors.com/)
+$color-asphalt: #34495E;
+$color-emerald: #2ECC71;
+$color-alizarin: #E74C3C;
+$color-peter-river: #3498DB;
+$color-clouds: #ecf0f1;
+
 html {
   background-color: $color-gray-light;
 }

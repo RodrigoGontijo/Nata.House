@@ -196,6 +196,21 @@ a {
   top: 50%;
   transform: translate(-50%, -50%); }
 
+.section-title {
+  background-color: #34495E; }
+
+.section-about {
+  background-color: #3498DB; }
+
+.section-services {
+  background-color: #E74C3C; }
+
+.section-people {
+  background-color: #2ECC71; }
+
+.section-contact {
+  background-color: #ecf0f1; }
+
 @keyframes fadein {
   from {
     opacity: 0; }

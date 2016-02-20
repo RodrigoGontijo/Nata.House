@@ -60,6 +60,26 @@
     transform: translate(-50%, -50%);
 }
 
+.section-title {
+    background-color: $color-asphalt;
+}
+
+.section-about {
+    background-color: $color-peter-river;
+}
+
+.section-services {
+    background-color: $color-alizarin;
+}
+
+.section-people {
+    background-color: $color-emerald;
+}
+
+.section-contact {
+    background-color: $color-clouds;
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to { opacity: 1; }
