@@ -4,7 +4,7 @@
   "description": "Website for the Nata House company",
   "scripts": {
     "commit": "npm run sass && node ./node_modules/commitizen/bin/git-cz.js",
-    "sass": "node_modules/.bin/node-sass --output-style compressed scss/main.scss ../css/main.css",
+    "sass": "node_modules/.bin/node-sass --output-style compressed scss/main.scss css/main.css",
     "sass:watch": "node_modules/.bin/node-sass -rw scss/main.scss css/main.css"
   },
   "repository": {
