@@ -8,7 +8,11 @@ $(document).ready(function() {
 
     //Title header transition
     $('.layout-fade-in-down').addClass("layout-fade-in-down-complete");
-    $('.layout-fade-in-down').bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function() {
-      $('.layout-toggle-color').addClass("text-primary");
+    $('.layout-fade-in-top').addClass("layout-fade-in-top-complete");
+    $('.layout-fade-in-top').bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function() {
+        $('.layout-toggle-color').addClass("text-primary");
+        $('.layout-fade-in-top-text').addClass("layout-fade-in-top-complete");
     });
+
+    //
 });

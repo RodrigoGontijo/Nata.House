@@ -24,6 +24,7 @@ $bold: 800;
 
 // Base
 $base-font-family: sans-serif;
+$navbar-font-family: Montserrat;
 $title-font-family: headerFont;
 $base-font-weight: $regular;
 $base-font-size: 1.5rem;
@@ -93,4 +94,14 @@ a {
 @font-face {
     font-family: headerFont;
     src: url("../res/fonts/Ailerons-Typeface.otf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../res/fonts/Montserrat-Regular.otf");
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url("../res/fonts/Montserrat-Bold.otf");
 }

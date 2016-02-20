@@ -6,6 +6,15 @@
 .firstpage-logo {
     position: relative;
     margin: 50px 0px 50px 0px;
-    width: 350px;
-    height: 350px;
+
+    @include desktop {
+        width: 350px;
+        height: 350px;
+    }
+
+    @include mobile {
+        width: 20rem;
+        height: 20rem;
+    }
 }
+
