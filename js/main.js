@@ -13,6 +13,11 @@ $(document).ready(function() {
         $('.layout-toggle-color').addClass("text-primary");
         $('.layout-fade-in-top-text').addClass("layout-fade-in-top-complete");
     });
-
-    //
 });
+
+//This one executes when the DOM is ready to be manipulated AND all content
+//(images, etc...) are loaded
+window.onload = function() {
+    $('.splash-screen').addClass("splash-loading-finished");
+    console.log("finished loading");
+};

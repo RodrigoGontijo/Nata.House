@@ -34,6 +34,14 @@
     position: absolute;
 }
 
+.layout-all-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .layout-fadein {
     animation: fadein 4.5s;
 }
