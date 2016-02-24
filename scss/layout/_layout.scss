@@ -29,6 +29,10 @@
     transform: translateY(-50%);
 }
 
+.layout-overall {
+    z-index:1000;
+}
+
 .layout-inline {
     display: inline-block;
     position: absolute;

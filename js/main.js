@@ -4,6 +4,14 @@ $(document).ready(function() {
         anchors:['section-title', 'section-about', 'section-services', 'section-people', 'section-contact'],
         menu: '#sidenav',
         loopBottom: true,
+
+        onLeave: function(index, nextIndex, direction){
+            if(nextIndex >1){
+                $('.firstpage-logo').addClass('firstpage-logo-section');
+            } else {
+                $('.firstpage-logo').removeClass('firstpage-logo-section');
+            }
+        }
     });
 
     //Title header transition
