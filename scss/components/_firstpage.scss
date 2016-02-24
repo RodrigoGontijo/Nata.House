@@ -26,10 +26,12 @@
     @include desktop {
         -webkit-filter: sepia(100%) drop-shadow(5px 5px 5px $color-dark-gray);
         filter: sepia(100%) drop-shadow(5px 5px 5px $color-dark-gray);
-        top: 300px;
-        left: -720px;
+
+        left:-5%;
+        top:50%;
         transform: scale(0.3, 0.3);
         -webkit-transform: scale(0.3, 0.3);
+
     }
     @include mobile {
         opacity: 0;

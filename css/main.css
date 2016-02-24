@@ -180,7 +180,7 @@ a {
   transform: translateY(-50%); }
 
 .layout-overall {
-  z-index: 1000; }
+  z-index: 1; }
 
 .layout-inline {
   display: inline-block;
@@ -293,8 +293,8 @@ section {
   .firstpage-logo-section {
     -webkit-filter: sepia(100%) drop-shadow(5px 5px 5px #303030);
     filter: sepia(100%) drop-shadow(5px 5px 5px #303030);
-    top: 300px;
-    left: -720px;
+    left: -5%;
+    top: 50%;
     transform: scale(0.3, 0.3);
     -webkit-transform: scale(0.3, 0.3); } }
 
@@ -337,7 +337,7 @@ section {
     opacity: 1; } }
 
 .sidenav {
-  z-index: 1; }
+  z-index: 2; }
   .sidenav > ul {
     list-style-type: none; }
     .sidenav > ul > li.active {
