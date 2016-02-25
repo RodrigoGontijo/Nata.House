@@ -293,10 +293,11 @@ section {
   .firstpage-logo-section {
     -webkit-filter: sepia(100%) drop-shadow(5px 5px 5px #303030);
     filter: sepia(100%) drop-shadow(5px 5px 5px #303030);
-    left: -5%;
-    top: 50%;
+    left: 2%;
+    top: 60%;
     transform: scale(0.3, 0.3);
-    -webkit-transform: scale(0.3, 0.3); } }
+    -webkit-transform: scale(0.3, 0.3);
+    transform-origin: 0 0; } }
 
 @media (max-width: 749px) {
   .firstpage-logo-section {

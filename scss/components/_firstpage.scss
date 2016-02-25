@@ -27,14 +27,13 @@
         -webkit-filter: sepia(100%) drop-shadow(5px 5px 5px $color-dark-gray);
         filter: sepia(100%) drop-shadow(5px 5px 5px $color-dark-gray);
 
-        left:-5%;
-        top:50%;
+        left: 2%;
+        top: 60%;
         transform: scale(0.3, 0.3);
         -webkit-transform: scale(0.3, 0.3);
-
+        transform-origin: 0 0;
     }
     @include mobile {
         opacity: 0;
     }
 }
-
