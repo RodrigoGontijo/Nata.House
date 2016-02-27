@@ -14,5 +14,4 @@ $(document).ready(function() {
         $('.layout-fade-in-top-text').addClass("layout-fade-in-top-complete");
     });
 
-    //
 });

@@ -219,10 +219,10 @@ a {
   transform: translate(-50%, -50%); }
 
 .section-title {
-  background-color: #34495E; }
+  background-color: #2C3E50; }
 
 .section-about {
-  background-color: #3498DB; }
+  background-color: #444333; }
 
 .section-services {
   background-color: #E74C3C; }
@@ -329,6 +329,72 @@ section {
       height: 16px; }
       .sidenav > ul > li > a:hover {
         border: 3px #FFFFFF solid; }
+
+#container {
+  width: 100%;
+  text-align: center;
+  top: 130%;
+  left: 18%;
+  position: fixed;
+  display: inline-block; }
+
+.box {
+  opacity: 0px;
+  float: left;
+  width: 400px;
+  height: 300px;
+  margin: 50px 15px 15px 15px; }
+
+.mask-top {
+  position: absolute;
+  background-color: #FFAA00;
+  border: 1.5px solid #ffffff;
+  transition: height 0.5s;
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+  z-index: 1; }
+
+.mask-bottom {
+  position: absolute;
+  background-color: #202020;
+  color: #FDAA00;
+  height: 300px;
+  width: 400px;
+  border-left: 1.5px solid #ffffff;
+  border-right: 1.5px solid #ffffff;
+  border-bottom: 1.5px solid #ffffff; }
+
+.box:hover .mask-top {
+  height: 0px; }
+
+.text-definition {
+  height: 100px;
+  width: inherit;
+  margin: 0;
+  text-align-all: center; }
+
+img {
+  height: 30%;
+  width: 25%;
+  margin: 45px 25px 25px 25px; }
+
+h4 {
+  color: #ffffff; }
+
+.horizontal-line-black {
+  height: 2px;
+  border: none;
+  color: #000;
+  background-color: #000;
+  margin: 0px 40% 20px 40%; }
+
+.horizontal-line-white {
+  height: 2px;
+  border: none;
+  color: #000;
+  background-color: #fff;
+  margin: 0px 40% 20px 40%; }
 
 /**
  * The "utils" module contains definitions for utility classes.
