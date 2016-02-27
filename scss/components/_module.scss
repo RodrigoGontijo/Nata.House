@@ -4,7 +4,8 @@
  * MUST have its own submodule file which is, then,
  * imported into this module.
  */
-@import "firstpage";
-@import "navbar";
-@import "sidenav";
+@import 'firstpage';
+@import 'navbar';
+@import 'sidenav';
+@import 'splash-loading';
 @import "box";

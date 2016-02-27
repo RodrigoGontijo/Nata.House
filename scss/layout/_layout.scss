@@ -29,9 +29,21 @@
     transform: translateY(-50%);
 }
 
+.layout-overall {
+    z-index:1;
+}
+
 .layout-inline {
     display: inline-block;
     position: absolute;
+}
+
+.layout-all-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .layout-fadein {

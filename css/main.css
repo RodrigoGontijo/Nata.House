@@ -1,1 +1,424 @@
-html{background-color:#F0F0F0}.bg-primary{background-color:#fa0}.bg-white{background-color:#fff}.bg-black{background-color:#303030}.bg-gray{background-color:#F0F0F0}.text-primary{color:#fa0}.text-white{color:#fff}.text-black{color:#303030}.text-gray{color:#606060}.text-thin{font-weight:100}.text-light{font-weight:300}.text-regular{font-weight:500}.text-medium{font-weight:600}.text-bold{font-weight:800}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.text-margin-left{margin-left:700px}.text-margin-top{margin-top:70px}html{font-size:62.5%}body{font-family:sans-serif;font-size:1.5em;font-weight:500;color:#404040}p,span,a,i,b,strong,small,em{line-height:1.3em}h1,h2,h3,h4,h5,h6{margin:0 0 0.5em;font-weight:500}h1{font-family:headerFont;font-size:4.8rem;font-weight:300}h2{font-size:3.6rem}h3{font-size:2.4rem}h4{font-size:2.0rem;font-weight:600}h5{font-size:1.8rem;font-weight:600}h6{font-size:1.6rem;font-weight:800}@media (min-width: 750px){h1{font-size:15.0rem}h2{font-size:4.8rem}h3{font-size:3.6rem}h4{font-size:2.4rem}h5{font-size:1.8rem}h6{font-size:1.6rem}}a{text-decoration:underline}a:hover{color:inherit}@font-face{font-family:headerFont;src:url("../res/fonts/Ailerons-Typeface.otf")}@font-face{font-family:Montserrat;src:url("../res/fonts/Montserrat-Regular.otf")}@font-face{font-family:Montserrat-Bold;src:url("../res/fonts/Montserrat-Bold.otf")}.layout{position:relative}.layout-top,.layout-bottom,.layout-left,.layout-right,.layout-center-x,.layout-center-y,.layout-center-xy{position:absolute}.layout-top{top:0}.layout-bottom{bottom:0}.layout-left{left:0}.layout-right{right:0}.layout-center-x{left:50%;transform:translateX(-50%)}.relative{position:relative}.layout-center-y{top:50%;transform:translateY(-50%)}.layout-inline{display:inline-block;position:absolute}.layout-fadein{animation:fadein 4.5s}.layout-fade-in-down{opacity:0;top:-40px;transition:opacity 1s ease-in-out, top 1s ease-in-out}.layout-fade-in-down-complete{opacity:1;top:0}.layout-fade-in-top{opacity:0;margin-top:40px;transition:opacity 1s ease-in-out, margin-top 1s ease-in-out}.layout-fade-in-top-text{opacity:0;margin-top:40px;transition:opacity 1s ease-in-out, margin-top 1s ease-in-out}.layout-fade-in-top-complete{opacity:1;margin-top:0}.layout-toggle-color{transition:color 2s ease-in-out}.layout-center-x.layout-center-y,.layout-center-xy{left:50%;top:50%;transform:translate(-50%, -50%)}.section-title{background-color:#2C3E50}.section-about{background-color:#444333}.section-services{background-color:#E74C3C}.section-people{background-color:#2ECC71}.section-contact{background-color:#ecf0f1}@keyframes fadein{from{opacity:0}to{opacity:1}}*{margin:0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}html,body{margin:0;padding:0;min-height:100%;height:100%}section{position:relative;padding:0 0 3.6rem}.firstpage{background-color:#303030;background-size:cover}.firstpage-logo{position:relative;margin:50px 0px 50px 0px}@media (min-width: 750px){.firstpage-logo{width:350px;height:350px}}@media (max-width: 749px){.firstpage-logo{width:20rem;height:20rem}}.navbar{height:64px;font-family:Montserrat}.navbar>ul{list-style-type:none;padding:0;margin-right:30px}.navbar>ul>li{float:right;margin-right:30px;margin-top:20px}.navbar>ul>li>a{color:#fff;text-align:center;text-decoration:none;display:inline-block;line-height:64px}@media (min-width: 750px){.navbar>ul>li>a{font-size:1.2em;padding:0 16px}}@media (max-width: 749px){.navbar>ul>li>a{font-size:0.7em;padding:0 0.1rem}}.navbar>ul>li>a:hover{color:#fa0}@keyframes fadein{from{opacity:0}to{opacity:1}}.sidenav{z-index:1}.sidenav>ul{list-style-type:none}.sidenav>ul>li.active{background:#fff}.sidenav>ul>li.active>a{border:none}.sidenav>ul>li>a{background:none;border:3px #B0B0B0 solid;margin:8px 0;padding:0;display:block;width:16px;height:16px}.sidenav>ul>li>a:hover{border:3px #fff solid}#container{width:100%;text-align:center;top:130%;left:18%;position:fixed;display:inline-block}.box{opacity:0px;float:left;width:400px;height:300px;margin:50px 15px 15px 15px}.mask-top{position:absolute;background-color:#fa0;border:1.5px solid #ffffff;transition:height 0.5s;height:300px;width:400px;overflow:hidden;z-index:1}.mask-bottom{position:absolute;background-color:#202020;color:#FDAA00;height:300px;width:400px;border-left:1.5px solid #ffffff;border-right:1.5px solid #ffffff;border-bottom:1.5px solid #ffffff}.box:hover .mask-top{height:0px}.text-definition{height:100px;width:inherit;margin:0;text-align-all:center}img{height:30%;width:25%;margin:45px 25px 25px 25px}h4{color:#ffffff}.horizontal-line-black{height:2px;border:none;color:#000;background-color:#000;margin:0px 40% 20px 40%}.horizontal-line-white{height:2px;border:none;color:#000;background-color:#fff;margin:0px 40% 20px 40%}.u-hide{display:none}.u-hide-mobile{display:none}@media (min-width: 750px){.u-hide-mobile{display:inherit}.u-hide-desktop{display:none}}.u-round{border-radius:50%}.u-pull-left{float:left}.u-pull-right{float:right}.u-fixed{position:fixed}.u-no-margin{margin:0}.u-full-width{width:100%}.u-viewport-height{height:100vh}
+/**
+ * The "base" module should contain definitions and base values
+ * for the whole stylesheet. Color and typography definitions are,
+ * for example, contained in this module.
+ */
+/**
+ * The "colors" submodule contains definitions for color values
+ * constantly used throughout the stylesheet.
+ * It is important to note that consistency is the key when
+ * defining and using colors. Prefer for a maximum amount of 3 or 4
+ * main colors: primary, secondary, tertiary and accent.
+ */
+html {
+  background-color: #F0F0F0; }
+
+.bg-primary {
+  background-color: #FFAA00; }
+
+.bg-white {
+  background-color: #FFFFFF; }
+
+.bg-black {
+  background-color: #303030; }
+
+.bg-gray {
+  background-color: #F0F0F0; }
+
+.text-primary {
+  color: #FFAA00; }
+
+.text-white {
+  color: #FFFFFF; }
+
+.text-black {
+  color: #303030; }
+
+.text-gray {
+  color: #606060; }
+
+/**
+ * The "typography" submodule contains any type, copy and text-related styles
+ */
+.text-thin {
+  font-weight: 100; }
+
+.text-light {
+  font-weight: 300; }
+
+.text-regular {
+  font-weight: 500; }
+
+.text-medium {
+  font-weight: 600; }
+
+.text-bold {
+  font-weight: 800; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.text-margin-left {
+  margin-left: 700px; }
+
+.text-margin-top {
+  margin-top: 70px; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #404040; }
+
+p, span, a, i, b, strong, small, em {
+  line-height: 1.3em; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.5em;
+  font-weight: 500; }
+
+h1 {
+  font-family: headerFont;
+  font-size: 3.8rem;
+  font-weight: 300; }
+
+h2 {
+  font-size: 3.6rem; }
+
+h3 {
+  font-size: 2.4rem; }
+
+h4 {
+  font-size: 2.0rem;
+  font-weight: 600; }
+
+h5 {
+  font-size: 1.8rem;
+  font-weight: 600; }
+
+h6 {
+  font-size: 1.6rem;
+  font-weight: 800; }
+
+@media (min-width: 750px) {
+  h1 {
+    font-size: 15.0rem; }
+  h2 {
+    font-size: 4.8rem; }
+  h3 {
+    font-size: 3.6rem; }
+  h4 {
+    font-size: 2.4rem; }
+  h5 {
+    font-size: 1.8rem; }
+  h6 {
+    font-size: 1.6rem; } }
+
+a {
+  text-decoration: underline; }
+  a:hover {
+    color: inherit; }
+
+@font-face {
+  font-family: headerFont;
+  src: url("../res/fonts/Ailerons-Typeface.otf"); }
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../res/fonts/Montserrat-Regular.otf"); }
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../res/fonts/Montserrat-Bold.otf"); }
+
+/**
+ * The "layout" module is used to define layout specific styles,
+ * such as those regarding mainly element placement and spacing.
+ */
+.layout {
+  position: relative; }
+
+.layout-top,
+.layout-bottom,
+.layout-left,
+.layout-right,
+.layout-center-x,
+.layout-center-y,
+.layout-center-xy {
+  position: absolute; }
+
+.layout-top {
+  top: 0; }
+
+.layout-bottom {
+  bottom: 0; }
+
+.layout-left {
+  left: 0; }
+
+.layout-right {
+  right: 0; }
+
+.layout-center-x {
+  left: 50%;
+  transform: translateX(-50%); }
+
+.relative {
+  position: relative; }
+
+.layout-center-y {
+  top: 50%;
+  transform: translateY(-50%); }
+
+.layout-overall {
+  z-index: 1; }
+
+.layout-inline {
+  display: inline-block;
+  position: absolute; }
+
+.layout-all-screen, .splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.layout-fadein {
+  animation: fadein 4.5s; }
+
+.layout-fade-in-down {
+  opacity: 0;
+  top: -40px;
+  transition: opacity 1s ease-in-out, top 1s ease-in-out; }
+
+.layout-fade-in-down-complete {
+  opacity: 1;
+  top: 0; }
+
+.layout-fade-in-top {
+  opacity: 0;
+  margin-top: 40px;
+  transition: opacity 1s ease-in-out, margin-top 1s ease-in-out; }
+
+.layout-fade-in-top-text {
+  opacity: 0;
+  margin-top: 40px;
+  transition: opacity 1s ease-in-out, margin-top 1s ease-in-out; }
+
+.layout-fade-in-top-complete {
+  opacity: 1;
+  margin-top: 0; }
+
+.layout-toggle-color {
+  transition: color 2s ease-in-out; }
+
+.layout-center-x.layout-center-y,
+.layout-center-xy {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.section-title {
+  background-color: #34495E; }
+
+.section-about {
+  background-color: #3498DB; }
+
+.section-services {
+  background-color: #E74C3C; }
+
+.section-people {
+  background-color: #2ECC71; }
+
+.section-contact {
+  background-color: #ecf0f1; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+* {
+  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  height: 100%; }
+
+section {
+  position: relative;
+  padding: 0 0 3.6rem; }
+
+/**
+ * The "components" module contains style definitions for
+ * all the UI components used in the page. Each component
+ * MUST have its own submodule file which is, then,
+ * imported into this module.
+ */
+.firstpage {
+  background-color: #303030;
+  background-size: cover; }
+
+.firstpage-logo {
+  position: absolute;
+  transition: 1s; }
+  @media (min-width: 750px) {
+    .firstpage-logo {
+      margin: 5rem 0px 5rem 0px;
+      width: 30rem;
+      height: 30rem; } }
+  @media (max-width: 749px) {
+    .firstpage-logo {
+      margin: 10rem 0px 10rem 0px;
+      width: 20rem;
+      height: 20rem; } }
+
+@media (min-width: 750px) {
+  .firstpage-logo-section {
+    -webkit-filter: sepia(100%) drop-shadow(5px 5px 5px #303030);
+    filter: sepia(100%) drop-shadow(5px 5px 5px #303030);
+    left: 2%;
+    top: 60%;
+    transform: scale(0.3, 0.3);
+    -webkit-transform: scale(0.3, 0.3);
+    transform-origin: 0 0; } }
+
+@media (max-width: 749px) {
+  .firstpage-logo-section {
+    opacity: 0; } }
+
+.navbar {
+  height: 64px;
+  font-family: Montserrat; }
+  .navbar > ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 4%; }
+    .navbar > ul > li {
+      float: right;
+      margin-right: 4%;
+      margin-top: 20px; }
+      .navbar > ul > li > a {
+        color: #FFFFFF;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        line-height: 64px; }
+        @media (min-width: 750px) {
+          .navbar > ul > li > a {
+            font-size: 1.2em;
+            padding: 0 16px; } }
+        @media (max-width: 749px) {
+          .navbar > ul > li > a {
+            font-size: 0.7em;
+            padding: 0 0.1rem; } }
+        .navbar > ul > li > a:hover {
+          color: #FFAA00; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.sidenav {
+  z-index: 2; }
+  .sidenav > ul {
+    list-style-type: none; }
+    .sidenav > ul > li.active {
+      background: #FFFFFF; }
+      .sidenav > ul > li.active > a {
+        border: none; }
+    .sidenav > ul > li > a {
+      background: none;
+      border: 3px #B0B0B0 solid;
+      margin: 8px 0;
+      padding: 0;
+      display: block;
+      width: 1.6rem;
+      height: 1.6rem; }
+      .sidenav > ul > li > a:hover {
+        border: 3px #FFFFFF solid; }
+
+.splash-screen {
+  background-color: #303030;
+  opacity: 1;
+  transition: opacity 0.5s;
+  z-index: 1000; }
+
+.splash-loading-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -75px 0 0 -75px;
+  animation: spin 1s linear infinite;
+  border: 5px solid transparent;
+  border-top-color: #FFAA00;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  z-index: 1050; }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+.splash-loading-finished {
+  opacity: 0;
+  z-index: -1; }
+
+/**
+ * The "utils" module contains definitions for utility classes.
+ * These classes must be only one-line definitions and their names
+ * must be prefixed by "u-".
+ */
+.u-hide {
+  display: none; }
+
+.u-hide-mobile {
+  display: none; }
+
+@media (min-width: 750px) {
+  .u-hide-mobile {
+    display: inherit; }
+  .u-hide-desktop {
+    display: none; } }
+
+.u-round {
+  border-radius: 50%; }
+
+.u-pull-left {
+  float: left; }
+
+.u-pull-right {
+  float: right; }
+
+.u-fixed {
+  position: fixed; }
+
+.u-no-margin {
+  margin: 0; }
+
+.u-full-width {
+  width: 100%; }
+
+.u-viewport-height {
+  height: 100vh; }

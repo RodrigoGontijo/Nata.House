@@ -4,6 +4,14 @@ $(document).ready(function() {
         anchors:['section-title', 'section-about', 'section-services', 'section-people', 'section-contact'],
         menu: '#sidenav',
         loopBottom: true,
+
+        onLeave: function(index, nextIndex, direction){
+            if(nextIndex >1){
+                $('.firstpage-logo').addClass('firstpage-logo-section');
+            } else {
+                $('.firstpage-logo').removeClass('firstpage-logo-section');
+            }
+        }
     });
 
     //Title header transition
@@ -15,3 +23,10 @@ $(document).ready(function() {
     });
 
 });
+
+//This one executes when the DOM is ready to be manipulated AND all content
+//(images, etc...) are loaded
+window.onload = function() {
+    $('.splash-screen').addClass("splash-loading-finished");
+    console.log("finished loading");
+};
